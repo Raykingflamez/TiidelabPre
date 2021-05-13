@@ -1,0 +1,52 @@
+/* display property */
+.inline-element{
+    background-color: rebeccapurple;
+    display: block;
+}
+.block-element{
+    background: tan;
+    display: inline;
+}
+
+
+/* TEXT ALIGNMENT */
+#heading{
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    color: dodgerblue;
+}
+.Number-1{
+    color: hotpink;
+    text-align:left;
+}
+.Number-2{
+    text-align: center;
+}
+.Number-3{
+    text-align: right;
+}
+.Number-4{
+    text-align: right;
+    font-size: 19px;
+    text-transform: uppercase;
+    /* text-indent: 14px;
+    letter-spacing: 3px;
+    line-height: 1.7;
+    word-spacing: 20px;
+    white-space: nowrap; */
+    /* text-decoration: none; */
+    direction: ltr;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* TEXT TRANSFORMATION */
+
+/* uppercsae
+lowercase
+capitalize */

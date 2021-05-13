@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+    <style>
+
+        form{
+            border: 2px solid rgba(25, 56, 15, 0.493);
+            width: 55%;
+            height: 10%;
+            background-color:wheat;
+            box-shadow: 4px 8px 4px brown;
+            font-family: monospace;
+            font-weight: bold;
+            padding: 10px;
+            color: black;
+            text-align:justify;
+        }
+        input{
+            border-color: blueviolet;
+            width: 100%;
+        }
+        button{
+            font-size: 17px;
+            background-color: blue;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+ <form action="">
+
+    <label for="">My Info Form</label>
+    <p></p>
+    <label for="">Name </label> <br>
+    <input type="text" name="" placeholder="Please name input only!" required>
+  <p></p>
+  <label for="">username</label> <br>
+  <input type="text" placeholder="your username" required>
+  <p></p>
+  <label for="">Email </label><br>
+  <input type="email" name="" id="" placeholder="yourname@example.com">
+
+  <p></p>
+  <label for="">Phone Number </label><br>
+  <input type="text" minlength="11" maxlength="14" required>
+  <p></p>
+  <label for="">Gender </label> <br>
+
+  <input type="radio" value="Male" name="sex">Male <br>
+          <input type="radio" value="Female" name="sex">Female 
+  <p></p>
+  <label for="">Date of Birth</label> <br>
+  <input type="date">
+  <label>Department</label> <br>
+  <p></p>
+  <select name="" id="" required>
+      <option value="disabled" >--Select your department--</option>
+      <option value="Computer Science">Computer Science</option>
+      <option value="Computer Engineering">Computer Engineering</option>
+      <option value="Data Science">Data Science</option>
+  </select>
+  <p></p>
+  <label for="">Hobby </label><br>
+  <input type="checkbox" value="swimming">swimming <br>
+  <input type="checkbox" value="reading">reading <br>
+  <input type="checkbox" value="playing games">playing games 
+  <p></p>
+   <label for="">About Yourself</label><br>
+  <textarea name="" id="" cols="30" rows="10" placeholder="Tell us about yourself"></textarea>
+  <p></p>
+  <label for="">Password</label><br>
+   <input type="password" placeholder="input your password" required>
+  <p></p>
+  <button type="submit">Submit</button>
+
+
+ </form> 
+
+</body>
+</html>
