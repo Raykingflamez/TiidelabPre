@@ -5,12 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="day_3.css">
 </head>
 <body>
-    <form action="">
+
+    <!-- navbar
+
+   text 
+
+   forms
+
+   button
+
+   input 
+
+   links -->
+
+   
+    <header>
+        <nav>
+            <a href="#" class="logo"> Tiidelab </a>
+            <ul>
+                <li><a href="#" class="nav-link">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+     <!-- FORM SECTION -->
+     <!-- CTRL + / -->
+  <main class="body-area">
+    <form class="form-container">
         <h1> Survey Form </h1>
         <label for="">Name:</label>
-        <input type="text">
+        <input type="text" placeholder="Enter your name">
+        <div class="email-wrapper">
+            <label for="email">Email</label><br>
+            <input type="email" class="email-input" placeholder="Enter your email">
+        </div>
+        <div class="telephone-wrapper">
+            <label for="tel"> Enter your phone number</label><br>
+           <input type="tel" class="phone-input" placeholder="Enter your phone number">
+       </div>
+       <div class="question-wrapper">
+           <p>Is it raining?</p>
+           <div class="checkbox-wrapper">
+               <label  for="yes">Yes</label>
+               <input type="checkbox" id="yes" class="yes-checkbox">
+               <label for="no">No</label>
+               <input type="checkbox" id="no" class="no-checkbox">
+           </div>
+       </div>
+       <div class="message-wrapper">
+           <label for="message">Leave a message</label><br>
+           <textarea placeholder="Message" id="message" ></textarea>
+       </div>
+
+       <input type="button" value="submit">
+
     </form>
+  </main>
+
 </body>
 </html>
